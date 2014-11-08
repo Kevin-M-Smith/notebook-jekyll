@@ -4,9 +4,9 @@ email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/notebook-jekyll"
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: freiwasser
+github_username:  Kevin-M-Smith
+linkedin_username:  ethosengineering
 
 # Build settings
 markdown: kramdown
