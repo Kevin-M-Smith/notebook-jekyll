@@ -13,7 +13,11 @@ header-img: "img/home-bg.png"
 
 {% for post in paginator.posts %}
 <div class="post-preview">
+    {% if post.external_url %}
+    <a href="{{ post.external_url }}">
+    {% else %}
     <a href="{{ post.url | prepend: site.baseurl }}">
+    {% endif %}
         <h2 class="post-title">
             {{ post.title }}
         </h2>
