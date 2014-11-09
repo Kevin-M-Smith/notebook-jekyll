@@ -1,9 +1,8 @@
 # Site settings
-title: n.b.
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+title: Lab Notebook
+email: kevin.smith@tufts.edu
+description: "Online Lab Notebook"
 baseurl: "/notebook-jekyll"
-url: "http://yourdomain.com"
 twitter_username: freiwasser
 github_username:  Kevin-M-Smith
 linkedin_username:  ethosengineering
