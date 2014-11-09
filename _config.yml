@@ -1,5 +1,5 @@
 # Site settings
-title: Lab Notebook
+title: n.b.
 email: kevin.smith@tufts.edu
 description: "Online Lab Notebook"
 baseurl: "/notebook-jekyll"
