@@ -27,6 +27,9 @@ header-img: "img/home-bg.png"
         </h3>
         {% endif %}
     </a>
+        {% if post.perm && post.sha %}
+        <a href="{{ post.perm }}"><i>permanent snapshot: "{{ post.sha }}"</i></a>
+        {% endif %}
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
