@@ -16,17 +16,19 @@ border-style: none;" href="tags/index.html">tags:</a></li>
 {% assign tags_list = site.tags %}  
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %} 
-    	<li style="display:inline-block;"><a style="color: black;
-border-style: none;" href="tags/index.html#{{ tag }}">{{ tag }} <span style="color: black;">{{ site.tags[tag].size }}</span></a></li>
+    	<li style="display:inline-block;"><a style="color:
+border-style: none;" href="tags/index.html#{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %} 
-    	<li style="display:inline-block;"><a style="color: #000000;
-border-style: none;" href="tags/index.html#{{ tag[0] }}">{{ tag[0] }} <span style="color: black;">{{ tag[1].size }}</span></a></li>
+    	<li style="display:inline-block;"><a style="color:
+border-style: none;" href="tags/index.html#{{ tag[0] }}">{{ tag[0] }}</a></li>
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}
 </ul>
+<hr>
+
 
 
 {% for post in paginator.posts %}
