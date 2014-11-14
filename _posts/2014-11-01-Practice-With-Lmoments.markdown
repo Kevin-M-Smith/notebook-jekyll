@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Practice With L-moments and EDA"
-subtitle:   "Some "
+subtitle:   "Some notes on L-moment diagrams and demonstrations of exploratory data analysis."
 date:       2014-11-01 12:00:00
 author:     "Kevin M. Smith"
 tags: [demo, test, three]
